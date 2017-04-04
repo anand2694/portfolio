@@ -16824,7 +16824,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   color: #fafafa; }
 
 .download-resume {
-  bottom: 100px; }
+  bottom: 30px; }
 
 @media only screen and (max-width: 767px) {
   .btn-float, .download-resume {
@@ -16833,11 +16833,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     border-top-left-radius: 3px;
     bottom: 0; }
   .download-resume {
-    right: auto;
-    left: 0;
+    right: 0;
+    left: auto;
     bottom: 0;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 3px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 3px;
     font-size: 2em; } }
 
 .default-list .list-item {
@@ -20029,7 +20029,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 @media only screen and (max-width: 767px) {
   .resume-container .padding-left-border {
-    padding-left: 15px; } }
+    padding-left: 15px; }
+  .resume-container .no-padding-sm {
+    padding: 0 0 0 0; } }
+
+@media only print {
+  .print-block {
+    width: 100%; } }
 
 .intro-panel {
   color: #fafafa; }

@@ -36,7 +36,7 @@
 
 .download-resume {
 	@extend .btn-float;
-	bottom: 100px;
+	bottom: 30px;
 
 }
 
@@ -49,11 +49,11 @@
 
   }
 	.download-resume {
-		right: auto;
-		left: 0;
+		right: 0;
+		left: auto;
 		bottom: 0;
-		border-top-left-radius:0px;
-		border-top-right-radius:3px;
+		border-top-right-radius: 0px;
+		border-top-left-radius:3px;
 		font-size: 2em;
 
 	}

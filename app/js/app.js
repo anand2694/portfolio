@@ -31,4 +31,13 @@ app.requestArgs = {};
 
 app.components.site = function (body) {
   console.log($(body));
+  var $downloadResume = app.$body.find('.download-resume');
+
+  $downloadResume.on('click', function (ev) {
+
+  ev.preventDefault();
+  window.print();
+
+  });
+
 };
