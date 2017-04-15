@@ -1,6 +1,6 @@
 {
-  "short_name": "complex frontend",
-  "name": "complex-frontend ",
+  "short_name": "maggee",
+  "name": "maghena yadav ",
   "start_url": "/",
   "icons": [
     {
@@ -25,7 +25,7 @@
     }
   ],
   "background_color": "#31475A",
-  "theme_color": "#31475A", 
+  "theme_color": "#31475A",
   "display": "fullscreen",
   "orientation": "portrait"
 }
